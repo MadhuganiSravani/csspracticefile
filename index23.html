@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display: grid;
+            background-color: white;
+            grid-template-columns: repeat(3,300px);
+            grid-template-rows: repeat(3,150px);
+            padding: 30px;
+            gap: 15px;
+            justify-content: center;
+           align-items: center;
+           
+        }
+        #container>div{
+            background-color:white;
+            border: 1px solid black;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10%;
+            padding: 10px;
+        }
+
+        div>h1{
+            text-align: center;
+            
+        }
+        div > p{
+            text-align: center;
+
+            }
+
+        @media all and (max-width:900px) and (min-width:500px){
+            #container{
+                display: grid;
+                grid-template-columns: 200px 200px;
+                grid-template-rows:200px 200px 200px 200px 200px;
+            }
+        }
+        
+         @media all and (max-width:500px) and (min-width:100px){
+            #container{
+                display: grid;
+                grid-template-columns: repeat(1,200px) ;
+                grid-template-rows:repeat(10,200px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+           <div>
+            <h1>Papaya    <span style="color: red;">$6</span> </h1>
+           
+            <p>
+                Eating papaya first thing in the morning 
+                 can bring various health benefits
+            </p>
+          </div>
+
+          <div>
+             <h1>Papaya  <span style="color: red;">$6</span></h1>
+             <p>
+                Eating papaya first thing in the morning  
+                 can bring various health benefits
+            </p>
+          </div>
+
+          <div>
+             <h1>Papaya <span style="color: red;">$6</span> </h1>
+             <p>
+                Eating papaya first thing in the morning  
+                can bring various health benefits
+            </p>
+          </div>
+
+           <div>
+             <h1>Papaya <span style="color: red;">$6</span> </h1>
+             <p>
+                Eating papaya first thing in the morning  
+                 can bring various health benefits
+            </p>
+           </div>
+
+           <div>
+             <h1>Papaya <span style="color: red;">$6</span> </h1>
+             <p>
+                Eating papaya first thing in the morning  
+                 can bring various health benefits
+            </p>
+           </div>
+
+           <div>
+             <h1>Papaya <span style="color: red;">$6</span></h1>
+             <p>
+                Eating papaya first thing in the morning 
+                 can bring various health benefits
+            </p>
+           </div>
+
+            <div>
+            <h1>Papaya <span style="color: red;">$6</span></h1>
+            <p>
+                Eating papaya first thing in the morning
+                 can bring various health benefits
+            </p> 
+           </div>
+
+            <div>
+            <h1>Papaya <span style="color: red;">$6</span></h1>
+             <p>
+                Eating papaya first thing in the morning 
+                 can bring various health benefits
+            </p>
+           </div>
+
+            <div>
+            <h1>Papaya <span style="color: red;text-align: end;">$6</span></h1>
+             <p>
+                Eating papaya first thing in the morning  
+                can bring various health benefits
+            </p>
+           </div>
+           
+           <div>
+            <h1>Papaya <span style="color: red;text-align: end;">$6</span></h1>
+             <p>
+                Eating papaya first thing in the morning  
+                can bring various health benefits
+            </p>
+           </div>
+
+    </div>
+        
+</body>
+</html>
